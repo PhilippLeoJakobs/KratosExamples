@@ -1,0 +1,21 @@
+{
+        "properties": [
+            {
+                "model_part_name": "archara.domain",
+                "properties_id": 2,
+                "Material": {
+                    "Tables": {},
+                    "Variables": {
+                        "DENSITY": 7.85E-9,
+                        "POISSON_RATIO": 0.3,
+                        "THICKNESS": 0.8,
+                        "YOUNG_MODULUS": 40000.0
+                    },
+                    "constitutive_law": {
+                        "name": "LinearElasticPlaneStress2DLaw"
+                    },
+                    "name": "Material"
+                }
+            }
+        ]
+    }
